@@ -74,11 +74,16 @@ h3 {
   display: none;
 }
 
-.card__image {
+.card__image,
+.card__image__mobile {
   position: relative;
 }
 
 .card__image img {
+  display: none;
+}
+
+.card__image__mobile img {
   position: absolute;
   top: -9.8rem;
   left: 50%;
@@ -87,7 +92,6 @@ h3 {
   width: 100%;
   height: auto;
   max-width: 15rem;
-  /* margin: auto; */
 }
 
 .card__text {
@@ -227,6 +231,11 @@ h3 {
     left: auto;
     max-width: 25rem;
     transform: translate(-4rem);
+    display: block;
+  }
+
+  .card__image__mobile {
+    display: none;
   }
 
   .card__text {
