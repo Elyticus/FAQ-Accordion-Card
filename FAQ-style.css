@@ -43,7 +43,7 @@ html {
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   min-height: 100vh;
   margin: 0;
   padding: 10rem 1.5rem;
