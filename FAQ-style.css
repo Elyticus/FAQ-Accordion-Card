@@ -43,7 +43,6 @@ html {
 }
 
 body {
-  /* overflow: hidden; */
   min-height: 100vh;
   margin: 0;
   padding: 10rem 1.5rem;
@@ -186,6 +185,7 @@ h3 {
 /* DESKTOP STYLE */
 @media (min-width: 56em) {
   body {
+    overflow: hidden;
     padding: 15rem;
   }
   .card {
