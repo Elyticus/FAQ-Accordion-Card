@@ -67,6 +67,7 @@ h3 {
   border-radius: 2rem;
   max-width: 56rem;
   padding: 2.875rem 1.5rem;
+  box-shadow: 0 30px 20px -2px hsla(238, 29%, 16%, 0.226);
 }
 
 .card__box {
